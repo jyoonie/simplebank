@@ -23,7 +23,7 @@ jobs:
         image: postgres:12
         # Provide the password for postgres
         env:
-          POSTGRES_HOST: root
+          POSTGRES_USER: root
           POSTGRES_PASSWORD: secret
           POSTGRES_DB: simple_bank
         ports:
